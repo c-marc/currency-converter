@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  background-color: hsl(224, 87%, 79%);
+}
+
+* {
+  font: inherit;
+}
+
+.app {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.4rem;
+  margin-top: 1em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.field,
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="number"] {
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: white;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
